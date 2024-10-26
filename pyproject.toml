@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "mychatbot"
+version = "0.1.0"
+description = ""
+authors = ["mizru326 <mizru326@gmail.com>"]
+readme = "README.md"
+packages = [
+    { include = "src" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.11.3"
+gradio = "3.31.0"
+pydantic = "1.10.7"
+python-dotenv = "1.0.0"
+langchain = "0.0.172"
+openai = "0.27.6"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
