@@ -1,4 +1,5 @@
 # faq chatbot
+
 外部からドキュメントを追加しその内容を含めてLLMが日本語で回答します。
 
 # 前提
@@ -46,7 +47,9 @@ poetryのインストール
 asdf plugin-add poetry
 ```
 
-# 起動
+=======
+
+#　起動
 次のコマンドで実行できます。
 poetry run python src/gradio_app.py
 
