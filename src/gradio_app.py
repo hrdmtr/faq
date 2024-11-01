@@ -27,7 +27,6 @@ with gr.Blocks() as demo:
         if len(history.messages) ==0:
             message = message + "日本語でお願いします"
         
-        bot_message = random.choice(["hhhhhhhhhhhhh?", "超元気ですか", "質問あります？"])
         bot_message = chat(message=message, history=history)
         
         print(chat_history)
